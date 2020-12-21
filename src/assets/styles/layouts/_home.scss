@@ -1,0 +1,84 @@
+body {
+  background: var(--white-color);
+  font-family: var(--base-font-family);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: var(--font-weight-thin);
+  line-height: normal;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+a {
+  color: var(--link-color);
+  font-weight: normal;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+a:hover,
+a:active,
+a:focus {
+  color: var(--primary-color);
+  outline: none;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 992px) {
+  .section {
+    padding: 5rem 0;
+  }
+
+  .nav-item .nav-link {
+    padding: 6px;
+  }
+
+  .navbar .social-icon {
+    margin-top: 22px;
+  }
+
+  .navbar-collapse,
+  .site-footer {
+    text-align: center;
+  }
+
+  .schedule-table {
+    display: block;
+  }
+
+  .modal-content {
+    padding: 2rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  h1 {
+    font-size: 38px;
+  }
+
+  .about-working-hours {
+    border-left: 0;
+    padding: 22px 0 0 0;
+  }
+
+  .contact h2 span {
+    display: block;
+  }
+}

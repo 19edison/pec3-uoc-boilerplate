@@ -1,0 +1,78 @@
+.hero {
+  background-image: url("https://1.bp.blogspot.com/-5QDjP8MDUTo/Ud3vNkkHkPI/AAAAAAAAJ0E/zytuFZ7GdRo/s1600/foto+para+el+post+de+wall.jpg");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  min-height: 100vh;
+  position: relative;
+}
+
+.parrafos {
+  margin: 15vh;
+
+  p {
+    margin-top: 10vh;
+  }
+}
+
+.items {
+  margin: 15vh;
+}
+
+ol {
+  margin-left: 50px;
+
+  li {
+    list-style: none;
+  }
+}
+
+.imagen-blog {
+  margin: 10vh;
+  display: flex;
+  justify-content: center;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 50%;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  background: #000;
+}
+
+figcaption {
+  text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+  .parrafos {
+    margin: 10vh;
+
+    p {
+      margin-top: 5vh;
+    }
+  }
+
+  .items {
+    margin: 10vh;
+  }
+
+  ol {
+    margin-left: 20px;
+
+    li {
+      list-style: none;
+    }
+  }
+
+  .imagen-blog {
+    margin: 2vh;
+    display: flex;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
+    <title>UOC Boilerplate</title>
+</head>
+
+<body>
+    <nav class="bg-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex items-center">
+                    <div class="flex-shrink-0">
+                        <img class="h-8 w-8" src="https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg"
+                            alt="Workflow">
+                    </div>
+                    <div class="hidden md:block">
+                        <div class="ml-10 flex items-baseline space-x-4">
+                            <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+                            <a href="index.html"
+                                class="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium">Inicio</a>
+
+                            <a href="information.html"
+                                class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Información</a>
+
+                            <a href="blog.html"
+                                class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Blog</a>
+
+                            <a href="about.html"
+                                class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Acerca
+                                De</a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="-mr-2 flex md:hidden">
+                    <!-- Mobile menu button -->
+                    <button
+                        class="bg-gray-800 inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
+                        <span class="sr-only">Open main menu</span>
+                        <!--
+                  Heroicon name: menu
+    
+                  Menu open: "hidden", Menu closed: "block"
+                -->
+                        <svg class="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                        <!--
+                  Heroicon name: x
+    
+                  Menu open: "block", Menu closed: "hidden"
+                -->
+                        <svg class="hidden h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!--
+          Mobile menu, toggle classes based on menu state.
+    
+          Open: "block", closed: "hidden"
+        -->
+        <div class="hidden md:hidden">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+                <a href="index.html"
+                    class="bg-gray-900 text-white block px-3 py-2 rounded-md text-base font-medium">Inicio</a>
+
+                <a href="information.html"
+                    class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Información</a>
+
+                <a href="blog.html"
+                    class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Blog</a>
+
+                <a href="about.html"
+                    class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Acerca
+                    De</a>
+
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero d-flex flex-column justify-content-center align-items-center" id="home">
+
+        <div class="bg-overlay"></div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-10 mx-auto col-12">
+                    <div class="hero-text mt-5 text-center"></div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="parrafos">
+        <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus ea numquam est, voluptatum quidem fugit? Qui
+            quisquam vitae labore, adipisci nam sequi, nihil modi, a ut odit doloremque obcaecati necessitatibus.</h4>
+
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem quibusdam aliquid, similique perspiciatis
+            in temporibus aspernatur odit maiores odio perferendis sint iure culpa harum facere esse officia fuga quae
+            expedita, Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem quibusdam aliquid, similique
+            perspiciatis in temporibus aspernatur odit maiores odio perferendis sint iure culpa harum facere esse
+            officia fuga quae expedita?</p>
+        <hr>
+    </section>
+
+    <section class="items">
+        <ol>
+            <li>
+                <div class="circle">1</div>
+                <b>Item One</b>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate temporibus quo nobis assumenda
+                    fugiat fugit dicta deserunt error amet mollitia veritatis impedit, iste eveniet eius iusto.
+                    Molestiae inventore maxime dolorum.</p>
+            </li>
+            <li>
+                <div class="circle">2</div>
+                <b>Item Two</b>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate temporibus quo nobis assumenda
+                    fugiat fugit dicta deserunt error amet mollitia veritatis impedit, iste eveniet eius iusto.
+                    Molestiae inventore maxime dolorum.</p>
+            </li>
+            <li>
+                <div class="circle">3</div>
+                <b>Item Three</b>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate temporibus quo nobis assumenda
+                    fugiat fugit dicta deserunt error amet mollitia veritatis impedit, iste eveniet eius iusto.
+                    Molestiae inventore maxime dolorum.</p>
+            </li>
+        </ol>
+        <hr>
+    </section>
+
+    <section class="imagen-blog">
+        <figure class="figure">
+            <img src="https://wallpaperaccess.com/full/1162922.jpg" class="figure-img img-fluid rounded" alt="...">
+            <figcaption class="figure-caption">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio iste
+                obcaecati unde iusto accusantium consequuntur, perferendis dolores nemo quod, aperiam temporibus, libero
+                velit ut ipsam adipisci et culpa expedita. Earum.</figcaption>
+        </figure>
+    </section>
+
+    <div class="min-h-screen flex items-center justify-center bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-md w-full space-y-8">
+          <div>
+            <img class="mx-auto h-12 w-auto" src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg" alt="Workflow">
+            <h2 class="mt-6 text-center text-3xl font-extrabold text-gray-900">
+              Register in event
+            </h2>
+          </div>
+          <form class="mt-8 space-y-6" action="#" method="POST">
+            <input type="hidden" name="remember" value="true">
+            <div class="rounded-md shadow-sm -space-y-px">
+              <div>
+                <label for="email-address" class="sr-only">Email address</label>
+                <input id="email-address" name="email" type="email" autocomplete="email" required class="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-t-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm" placeholder="Email address">
+              </div>              
+            </div>
+      
+            <div>
+              <button type="submit" class="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+                <span class="absolute left-0 inset-y-0 flex items-center pl-3">
+                  <!-- Heroicon name: lock-closed -->
+                  <svg class="h-5 w-5 text-indigo-500 group-hover:text-indigo-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z" clip-rule="evenodd" />
+                  </svg>
+                </span>
+                Register
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+    <script src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
+</body>
+
+</html>

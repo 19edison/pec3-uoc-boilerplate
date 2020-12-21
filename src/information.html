@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
+    <title>UOC Boilerplate</title>
+</head>
+
+<body>
+    <nav class="bg-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex items-center">
+                    <div class="flex-shrink-0">
+                        <img class="h-8 w-8" src="https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg"
+                            alt="Workflow">
+                    </div>
+                    <div class="hidden md:block">
+                        <div class="ml-10 flex items-baseline space-x-4">
+                            <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+                            <a href="index.html"
+                                class="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium">Inicio</a>
+
+                            <a href="information.html"
+                                class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Información</a>
+
+                            <a href="blog.html"
+                                class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Blog</a>
+
+                            <a href="about.html"
+                                class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Acerca
+                                De</a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="-mr-2 flex md:hidden">
+                    <!-- Mobile menu button -->
+                    <button
+                        class="bg-gray-800 inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
+                        <span class="sr-only">Open main menu</span>
+                        <!--
+                  Heroicon name: menu
+    
+                  Menu open: "hidden", Menu closed: "block"
+                -->
+                        <svg class="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                        <!--
+                  Heroicon name: x
+    
+                  Menu open: "block", Menu closed: "hidden"
+                -->
+                        <svg class="hidden h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!--
+          Mobile menu, toggle classes based on menu state.
+    
+          Open: "block", closed: "hidden"
+        -->
+        <div class="hidden md:hidden">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+                <a href="index.html"
+                    class="bg-gray-900 text-white block px-3 py-2 rounded-md text-base font-medium">Inicio</a>
+
+                <a href="information.html"
+                    class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Información</a>
+
+                <a href="blog.html"
+                    class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Blog</a>
+
+                <a href="about.html"
+                    class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Acerca
+                    De</a>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- This example requires Tailwind CSS v2.0+ -->
+    <div class="py-12 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:text-center">
+                <h2 class="text-base text-indigo-600 font-semibold tracking-wide uppercase">Bandas Participantes</h2>
+                <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                    El mejor concierto de la historia
+                </p>
+                <p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
+                    Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam voluptatum cupiditate veritatis
+                    in accusamus quisquam.
+                </p>
+            </div>
+
+            <div class="mt-10">
+                <dl class="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
+                    <div class="flex">
+                        <div class="flex-shrink-0">
+                            <div class="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                                <!-- Heroicon name: globe-alt -->
+                                <img class="img-banda"
+                                    src="https://monterreyrock.com/wp-content/uploads/2020/10/ACDC-2015-a-billboard-1548-1601907141-1024x677.jpg"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="ml-4">
+                            <dt class="text-lg leading-6 font-medium text-gray-900">
+                                AC/DC
+                            </dt>
+                            <dd class="mt-2 text-base text-gray-500">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis
+                                suscipit eaque, iste dolor cupiditate blanditiis ratione.
+                            </dd>
+                        </div>
+                    </div>
+
+                    <div class="flex">
+                        <div class="flex-shrink-0">
+                            <div class="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                                <!-- Heroicon name: scale -->
+                                <img class="img-banda"
+                                    src="https://garajedelrock.com/wp-content/uploads/2020/10/BJ24NW7ZVBEOJFTPPYLEY3MDXY-1024x576.jpg"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="ml-4">
+                            <dt class="text-lg leading-6 font-medium text-gray-900">
+                                Led Zepellin
+                            </dt>
+                            <dd class="mt-2 text-base text-gray-500">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis
+                                suscipit eaque, iste dolor cupiditate blanditiis ratione.
+                            </dd>
+                        </div>
+                    </div>
+
+                    <div class="flex">
+                        <div class="flex-shrink-0">
+                            <div class="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                                <!-- Heroicon name: lightning-bolt -->
+                                <img class="img-banda"
+                                    src="https://eldemocrata.com/wp-content/uploads/2020/02/black-sabbath.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="ml-4">
+                            <dt class="text-lg leading-6 font-medium text-gray-900">
+                                Black Sabbath
+                            </dt>
+                            <dd class="mt-2 text-base text-gray-500">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis
+                                suscipit eaque, iste dolor cupiditate blanditiis ratione.
+                            </dd>
+                        </div>
+                    </div>
+
+                    <div class="flex">
+                        <div class="flex-shrink-0">
+                            <div class="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                                <!-- Heroicon name: annotation -->
+                                <img class="img-banda"
+                                    src="https://www.latercera.com/resizer/7UPh-v9WF2tZzl1zp0Uc1CxCLMU=/900x600/smart/arc-anglerfish-arc2-prod-copesa.s3.amazonaws.com/public/E6BIMMG3K5GPTIA4V6KSO4MYZI.jpg"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="ml-4">
+                            <dt class="text-lg leading-6 font-medium text-gray-900">
+                                Queen
+                            </dt>
+                            <dd class="mt-2 text-base text-gray-500">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis
+                                suscipit eaque, iste dolor cupiditate blanditiis ratione.
+                            </dd>
+                        </div>
+                    </div>
+
+                    <div class="flex">
+                        <div class="flex-shrink-0">
+                            <div class="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                                <!-- Heroicon name: annotation -->
+                                <img class="img-banda"
+                                    src="https://vcm.emol.com/wp-content/uploads/2019/04/destacado-12.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="ml-4">
+                            <dt class="text-lg leading-6 font-medium text-gray-900">
+                                Nirvana
+                            </dt>
+                            <dd class="mt-2 text-base text-gray-500">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis
+                                suscipit eaque, iste dolor cupiditate blanditiis ratione.
+                            </dd>
+                        </div>
+                    </div>
+
+                    <div class="flex">
+                        <div class="flex-shrink-0">
+                            <div class="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                                <!-- Heroicon name: annotation -->
+                                <img class="img-banda"
+                                    src="https://rockandblog.net/wp-content/uploads/2020/04/10-curiosidades-guns-and-roses-1.jpg"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="ml-4">
+                            <dt class="text-lg leading-6 font-medium text-gray-900">
+                                Guns N' Roses
+                            </dt>
+                            <dd class="mt-2 text-base text-gray-500">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis
+                                suscipit eaque, iste dolor cupiditate blanditiis ratione.
+                            </dd>
+                        </div>
+                    </div>
+                </dl>
+            </div>
+        </div>
+    </div>
+
+    <section class="mapa">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3986.9132604042325!2d-79.92722758586233!3d-2.1865779984061913!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d6de02af55c39%3A0x70cf963126edbdf6!2sEstadio%20Monumental%20Banco%20Pichincha!5e0!3m2!1ses-419!2sec!4v1606060870613!5m2!1ses-419!2sec"
+            width="800" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+            tabindex="0"></iframe>
+    </section>
+
+    <script src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
+</body>
+
+</html>
